@@ -48,6 +48,11 @@
                     url: '/tenants/update/:tenantId',
                     templateUrl: abp.appPath + 'App/Main/views/tenants/update.cshtml',
                     menu: 'Tenants' //Matches to name of 'Users' menu in ModuleZeroSampleProjectNavigationProvider
+                })
+                .state('tenants/delete', {
+                    url: '/tenants/delete/:tenantId',
+                    templateUrl: abp.appPath + 'App/Main/views/tenants/delete.cshtml',
+                    menu: 'Tenants' //Matches to name of 'Users' menu in ModuleZeroSampleProjectNavigationProvider
                 });
         }
     ]);

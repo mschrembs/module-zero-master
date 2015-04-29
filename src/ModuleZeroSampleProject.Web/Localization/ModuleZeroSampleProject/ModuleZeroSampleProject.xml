@@ -12,5 +12,8 @@
     <text name="TenantUpdate" value="Update Tenant" />
     <text name="TenantUpdatedMessage" value="Tenant has been successfully updated." />
     <text name="TenantCreatedMessage" value="Tenant {0} has been created successfully." />
+    <text name="TenantDeletedMessage" value="Tenant {0} has been deleted successfully." />
+    <text name="TenantDelete" value="Delete Tenant" />
+    <text name="TenantDeleteQuestion" value="Do you really like to delete the tenant?" />
   </texts>
 </localizationDictionary>

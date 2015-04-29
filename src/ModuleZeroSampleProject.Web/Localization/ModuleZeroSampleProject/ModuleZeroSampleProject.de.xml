@@ -12,5 +12,8 @@
     <text name="TenantUpdate" value="Mandant aktualisieren" />
     <text name="TenantUpdatedMessage" value="Der Mandant wurde erfolgreich aktualisiert." />
     <text name="TenantCreatedMessage" value="Der Mandant {0} wurde erfolgreich angelegt." />
+    <text name="TenantDeletedMessage" value="Der Mandant {0} wurde erfolgreich gelöscht." />
+    <text name="TenantDelete" value="Mandant löschen" />
+    <text name="TenantDeleteQuestion" value="Wollen Sie wirklich den Mandanten löschen?" />
   </texts>
 </localizationDictionary>

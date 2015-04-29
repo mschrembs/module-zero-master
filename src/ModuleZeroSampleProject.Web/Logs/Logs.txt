@@ -3332,3 +3332,195 @@ DEBUG 2015-04-29 19:55:53,877 [1    ] Abp.Localization.LocalizationManager     -
 DEBUG 2015-04-29 19:55:53,881 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
 DEBUG 2015-04-29 19:55:53,883 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: ModuleZeroSampleProject
 DEBUG 2015-04-29 19:55:53,885 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2015-04-29 20:00:37,290 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2015-04-29 20:00:43,578 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2015-04-29 20:00:43,583 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.5.12.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-04-29 20:00:43,586 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.5.12.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-04-29 20:00:43,586 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.5.12.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-04-29 20:00:43,586 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.5.12.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-04-29 20:00:43,586 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.5.12.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-04-29 20:00:43,586 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.5.12.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-04-29 20:00:43,586 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.5.15.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-04-29 20:00:43,587 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.5.15.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-04-29 20:00:43,587 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ModuleZeroSampleProject.ModuleZeroSampleProjectApplicationModule, ModuleZeroSampleProject.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-04-29 20:00:43,587 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ModuleZeroSampleProject.ModuleZeroSampleProjectCoreModule, ModuleZeroSampleProject.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-04-29 20:00:43,588 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ModuleZeroSampleProject.ModuleZeroSampleProjectDataModule, ModuleZeroSampleProject.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-04-29 20:00:43,588 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ModuleZeroSampleProject.Web.ModuleZeroSampleProjectWebModule, ModuleZeroSampleProject.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-04-29 20:00:43,588 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ModuleZeroSampleProject.ModuleZeroSampleProjectWebApiModule, ModuleZeroSampleProject.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-04-29 20:00:43,592 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2015-04-29 20:00:44,586 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 5 classes defines auto mapping attributes
+DEBUG 2015-04-29 20:00:44,586 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ModuleZeroSampleProject.Questions.Dto.AnswerDto
+DEBUG 2015-04-29 20:00:44,915 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ModuleZeroSampleProject.Questions.Dto.QuestionDto
+DEBUG 2015-04-29 20:00:44,921 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ModuleZeroSampleProject.Questions.Dto.QuestionWithAnswersDto
+DEBUG 2015-04-29 20:00:44,924 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ModuleZeroSampleProject.Tenants.Dto.TenantDto
+DEBUG 2015-04-29 20:00:44,928 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ModuleZeroSampleProject.Users.Dto.UserDto
+DEBUG 2015-04-29 20:00:45,927 [1    ] Default                                  - Dynamic web api controller is created for type 'ModuleZeroSampleProject.Questions.IQuestionAppService' with service name 'app/question'.
+DEBUG 2015-04-29 20:00:45,930 [1    ] Default                                  - Dynamic web api controller is created for type 'ModuleZeroSampleProject.Tenants.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2015-04-29 20:00:45,932 [1    ] Default                                  - Dynamic web api controller is created for type 'ModuleZeroSampleProject.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2015-04-29 20:00:45,968 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2015-04-29 20:00:45,975 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2015-04-29 20:00:45,976 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: ModuleZeroSampleProject
+DEBUG 2015-04-29 20:00:45,976 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+INFO  2015-04-29 20:12:04,777 [66   ] roSampleProject.Tenants.TenantAppService - Creating a tenant for input: [CreateTenantInput > Name = 123qwe, IsActive = True]
+INFO  2015-04-29 20:13:13,654 [63   ] roSampleProject.Tenants.TenantAppService - Creating a tenant for input: [CreateTenantInput > Name = ewq321, IsActive = True]
+INFO  2015-04-29 20:14:30,167 [64   ] roSampleProject.Tenants.TenantAppService - Creating a tenant for input: [CreateTenantInput > Name = asdf, IsActive = False]
+INFO  2015-04-29 20:15:05,640 [57   ] roSampleProject.Tenants.TenantAppService - Creating a tenant for input: [CreateTenantInput > Name = asdf, IsActive = False]
+DEBUG 2015-04-29 20:17:13,161 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2015-04-29 20:17:18,415 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2015-04-29 20:17:18,419 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.5.12.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-04-29 20:17:18,421 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.5.12.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-04-29 20:17:18,421 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.5.12.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-04-29 20:17:18,421 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.5.12.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-04-29 20:17:18,421 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.5.12.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-04-29 20:17:18,421 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.5.12.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-04-29 20:17:18,422 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.5.15.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-04-29 20:17:18,422 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.5.15.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-04-29 20:17:18,422 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ModuleZeroSampleProject.ModuleZeroSampleProjectApplicationModule, ModuleZeroSampleProject.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-04-29 20:17:18,422 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ModuleZeroSampleProject.ModuleZeroSampleProjectCoreModule, ModuleZeroSampleProject.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-04-29 20:17:18,422 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ModuleZeroSampleProject.ModuleZeroSampleProjectDataModule, ModuleZeroSampleProject.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-04-29 20:17:18,423 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ModuleZeroSampleProject.Web.ModuleZeroSampleProjectWebModule, ModuleZeroSampleProject.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-04-29 20:17:18,423 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ModuleZeroSampleProject.ModuleZeroSampleProjectWebApiModule, ModuleZeroSampleProject.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-04-29 20:17:18,426 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2015-04-29 20:17:19,388 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 5 classes defines auto mapping attributes
+DEBUG 2015-04-29 20:17:19,388 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ModuleZeroSampleProject.Questions.Dto.AnswerDto
+DEBUG 2015-04-29 20:17:19,680 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ModuleZeroSampleProject.Questions.Dto.QuestionDto
+DEBUG 2015-04-29 20:17:19,685 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ModuleZeroSampleProject.Questions.Dto.QuestionWithAnswersDto
+DEBUG 2015-04-29 20:17:19,687 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ModuleZeroSampleProject.Tenants.Dto.TenantDto
+DEBUG 2015-04-29 20:17:19,691 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ModuleZeroSampleProject.Users.Dto.UserDto
+DEBUG 2015-04-29 20:17:20,613 [1    ] Default                                  - Dynamic web api controller is created for type 'ModuleZeroSampleProject.Questions.IQuestionAppService' with service name 'app/question'.
+DEBUG 2015-04-29 20:17:20,615 [1    ] Default                                  - Dynamic web api controller is created for type 'ModuleZeroSampleProject.Tenants.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2015-04-29 20:17:20,616 [1    ] Default                                  - Dynamic web api controller is created for type 'ModuleZeroSampleProject.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2015-04-29 20:17:20,654 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2015-04-29 20:17:20,658 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2015-04-29 20:17:20,659 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: ModuleZeroSampleProject
+DEBUG 2015-04-29 20:17:20,659 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+INFO  2015-04-29 20:17:36,385 [9    ] roSampleProject.Tenants.TenantAppService - Creating a tenant for input: [CreateTenantInput > Name = asdf14, IsActive = True]
+INFO  2015-04-29 20:18:55,566 [6    ] roSampleProject.Tenants.TenantAppService - Creating a tenant for input: [CreateTenantInput > Name = 2134, IsActive = False]
+INFO  2015-04-29 20:19:39,401 [24   ] roSampleProject.Tenants.TenantAppService - Creating a tenant for input: [CreateTenantInput > Name = 345, IsActive = False]
+INFO  2015-04-29 20:19:51,372 [18   ] roSampleProject.Tenants.TenantAppService - Creating a tenant for input: [CreateTenantInput > Name = 345, IsActive = False]
+DEBUG 2015-04-29 20:21:26,981 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2015-04-29 20:21:31,718 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2015-04-29 20:21:31,722 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.5.12.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-04-29 20:21:31,723 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.5.12.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-04-29 20:21:31,723 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.5.12.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-04-29 20:21:31,723 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.5.12.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-04-29 20:21:31,723 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.5.12.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-04-29 20:21:31,723 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.5.12.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-04-29 20:21:31,723 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.5.15.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-04-29 20:21:31,724 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.5.15.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-04-29 20:21:31,724 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ModuleZeroSampleProject.ModuleZeroSampleProjectApplicationModule, ModuleZeroSampleProject.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-04-29 20:21:31,724 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ModuleZeroSampleProject.ModuleZeroSampleProjectCoreModule, ModuleZeroSampleProject.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-04-29 20:21:31,724 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ModuleZeroSampleProject.ModuleZeroSampleProjectDataModule, ModuleZeroSampleProject.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-04-29 20:21:31,724 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ModuleZeroSampleProject.Web.ModuleZeroSampleProjectWebModule, ModuleZeroSampleProject.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-04-29 20:21:31,724 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ModuleZeroSampleProject.ModuleZeroSampleProjectWebApiModule, ModuleZeroSampleProject.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-04-29 20:21:31,728 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2015-04-29 20:21:32,615 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 5 classes defines auto mapping attributes
+DEBUG 2015-04-29 20:21:32,615 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ModuleZeroSampleProject.Questions.Dto.AnswerDto
+DEBUG 2015-04-29 20:21:32,911 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ModuleZeroSampleProject.Questions.Dto.QuestionDto
+DEBUG 2015-04-29 20:21:32,916 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ModuleZeroSampleProject.Questions.Dto.QuestionWithAnswersDto
+DEBUG 2015-04-29 20:21:32,918 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ModuleZeroSampleProject.Tenants.Dto.TenantDto
+DEBUG 2015-04-29 20:21:32,922 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ModuleZeroSampleProject.Users.Dto.UserDto
+DEBUG 2015-04-29 20:21:33,891 [1    ] Default                                  - Dynamic web api controller is created for type 'ModuleZeroSampleProject.Questions.IQuestionAppService' with service name 'app/question'.
+DEBUG 2015-04-29 20:21:33,893 [1    ] Default                                  - Dynamic web api controller is created for type 'ModuleZeroSampleProject.Tenants.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2015-04-29 20:21:33,894 [1    ] Default                                  - Dynamic web api controller is created for type 'ModuleZeroSampleProject.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2015-04-29 20:21:33,935 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2015-04-29 20:21:33,939 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2015-04-29 20:21:33,940 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: ModuleZeroSampleProject
+DEBUG 2015-04-29 20:21:33,941 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+INFO  2015-04-29 20:22:04,522 [9    ] roSampleProject.Tenants.TenantAppService - Creating a tenant for input: [CreateTenantInput > Name = 345, IsActive = False]
+INFO  2015-04-29 20:26:34,665 [47   ] roSampleProject.Tenants.TenantAppService - Creating a tenant for input: [CreateTenantInput > Name = rew, IsActive = False]
+INFO  2015-04-29 20:28:06,564 [70   ] roSampleProject.Tenants.TenantAppService - Creating a tenant for input: [CreateTenantInput > Name = test, IsActive = False]
+DEBUG 2015-04-29 20:38:57,223 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2015-04-29 20:38:58,749 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2015-04-29 20:38:58,754 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.5.12.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-04-29 20:38:58,755 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.5.12.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-04-29 20:38:58,756 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.5.12.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-04-29 20:38:58,756 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.5.12.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-04-29 20:38:58,756 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.5.12.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-04-29 20:38:58,756 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.5.12.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-04-29 20:38:58,756 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.5.15.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-04-29 20:38:58,756 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.5.15.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-04-29 20:38:58,756 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ModuleZeroSampleProject.ModuleZeroSampleProjectApplicationModule, ModuleZeroSampleProject.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-04-29 20:38:58,756 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ModuleZeroSampleProject.ModuleZeroSampleProjectCoreModule, ModuleZeroSampleProject.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-04-29 20:38:58,756 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ModuleZeroSampleProject.ModuleZeroSampleProjectDataModule, ModuleZeroSampleProject.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-04-29 20:38:58,756 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ModuleZeroSampleProject.Web.ModuleZeroSampleProjectWebModule, ModuleZeroSampleProject.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-04-29 20:38:58,757 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ModuleZeroSampleProject.ModuleZeroSampleProjectWebApiModule, ModuleZeroSampleProject.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-04-29 20:38:58,760 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2015-04-29 20:38:59,787 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 5 classes defines auto mapping attributes
+DEBUG 2015-04-29 20:38:59,787 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ModuleZeroSampleProject.Questions.Dto.AnswerDto
+DEBUG 2015-04-29 20:39:00,063 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ModuleZeroSampleProject.Questions.Dto.QuestionDto
+DEBUG 2015-04-29 20:39:00,068 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ModuleZeroSampleProject.Questions.Dto.QuestionWithAnswersDto
+DEBUG 2015-04-29 20:39:00,071 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ModuleZeroSampleProject.Tenants.Dto.TenantDto
+DEBUG 2015-04-29 20:39:00,075 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ModuleZeroSampleProject.Users.Dto.UserDto
+DEBUG 2015-04-29 20:39:01,113 [1    ] Default                                  - Dynamic web api controller is created for type 'ModuleZeroSampleProject.Questions.IQuestionAppService' with service name 'app/question'.
+DEBUG 2015-04-29 20:39:01,115 [1    ] Default                                  - Dynamic web api controller is created for type 'ModuleZeroSampleProject.Tenants.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2015-04-29 20:39:01,117 [1    ] Default                                  - Dynamic web api controller is created for type 'ModuleZeroSampleProject.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2015-04-29 20:39:01,345 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2015-04-29 20:39:01,350 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2015-04-29 20:39:01,351 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: ModuleZeroSampleProject
+DEBUG 2015-04-29 20:39:01,352 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+INFO  2015-04-29 20:41:55,857 [14   ] roSampleProject.Tenants.TenantAppService - Updating a tenant for input: [UpdateTenantInput > TenantId = 2, Name = test, IsActive = False]
+INFO  2015-04-29 20:41:59,796 [7    ] roSampleProject.Tenants.TenantAppService - Updating a tenant for input: [UpdateTenantInput > TenantId = 3, Name = blub, IsActive = False]
+INFO  2015-04-29 20:42:36,008 [20   ] roSampleProject.Tenants.TenantAppService - Updating a tenant for input: [UpdateTenantInput > TenantId = 4, Name = blub, IsActive = False]
+INFO  2015-04-29 20:42:38,970 [15   ] roSampleProject.Tenants.TenantAppService - Updating a tenant for input: [UpdateTenantInput > TenantId = 5, Name = blub, IsActive = False]
+INFO  2015-04-29 20:42:40,718 [7    ] roSampleProject.Tenants.TenantAppService - Updating a tenant for input: [UpdateTenantInput > TenantId = 6, Name = tewst, IsActive = False]
+INFO  2015-04-29 20:42:42,364 [17   ] roSampleProject.Tenants.TenantAppService - Updating a tenant for input: [UpdateTenantInput > TenantId = 7, Name = qwer, IsActive = False]
+INFO  2015-04-29 20:42:43,963 [20   ] roSampleProject.Tenants.TenantAppService - Updating a tenant for input: [UpdateTenantInput > TenantId = 8, Name = qwer, IsActive = False]
+INFO  2015-04-29 20:42:46,265 [14   ] roSampleProject.Tenants.TenantAppService - Updating a tenant for input: [UpdateTenantInput > TenantId = 9, Name = qwer, IsActive = False]
+INFO  2015-04-29 20:42:47,814 [23   ] roSampleProject.Tenants.TenantAppService - Updating a tenant for input: [UpdateTenantInput > TenantId = 10, Name = qwer, IsActive = False]
+INFO  2015-04-29 20:42:49,366 [15   ] roSampleProject.Tenants.TenantAppService - Updating a tenant for input: [UpdateTenantInput > TenantId = 11, Name = tadsf, IsActive = True]
+INFO  2015-04-29 20:42:51,328 [20   ] roSampleProject.Tenants.TenantAppService - Updating a tenant for input: [UpdateTenantInput > TenantId = 12, Name = tadsf, IsActive = True]
+INFO  2015-04-29 20:42:52,888 [18   ] roSampleProject.Tenants.TenantAppService - Updating a tenant for input: [UpdateTenantInput > TenantId = 13, Name = dfas, IsActive = True]
+INFO  2015-04-29 20:42:54,917 [9    ] roSampleProject.Tenants.TenantAppService - Updating a tenant for input: [UpdateTenantInput > TenantId = 14, Name = dfas, IsActive = True]
+INFO  2015-04-29 20:42:56,461 [9    ] roSampleProject.Tenants.TenantAppService - Updating a tenant for input: [UpdateTenantInput > TenantId = 15, Name = qwer, IsActive = True]
+INFO  2015-04-29 20:42:57,868 [22   ] roSampleProject.Tenants.TenantAppService - Updating a tenant for input: [UpdateTenantInput > TenantId = 16, Name = ewt, IsActive = True]
+INFO  2015-04-29 20:42:59,360 [22   ] roSampleProject.Tenants.TenantAppService - Updating a tenant for input: [UpdateTenantInput > TenantId = 17, Name = badf, IsActive = True]
+INFO  2015-04-29 20:43:00,819 [14   ] roSampleProject.Tenants.TenantAppService - Updating a tenant for input: [UpdateTenantInput > TenantId = 18, Name = asdfqewre, IsActive = False]
+INFO  2015-04-29 20:43:02,710 [16   ] roSampleProject.Tenants.TenantAppService - Updating a tenant for input: [UpdateTenantInput > TenantId = 19, Name = 214, IsActive = False]
+INFO  2015-04-29 20:43:04,615 [20   ] roSampleProject.Tenants.TenantAppService - Updating a tenant for input: [UpdateTenantInput > TenantId = 20, Name = 1234, IsActive = True]
+INFO  2015-04-29 20:43:06,470 [14   ] roSampleProject.Tenants.TenantAppService - Updating a tenant for input: [UpdateTenantInput > TenantId = 21, Name = test, IsActive = True]
+INFO  2015-04-29 20:43:07,959 [18   ] roSampleProject.Tenants.TenantAppService - Updating a tenant for input: [UpdateTenantInput > TenantId = 22, Name = 123qwe, IsActive = True]
+INFO  2015-04-29 20:43:09,628 [20   ] roSampleProject.Tenants.TenantAppService - Updating a tenant for input: [UpdateTenantInput > TenantId = 23, Name = ewq321, IsActive = True]
+INFO  2015-04-29 20:43:13,524 [20   ] roSampleProject.Tenants.TenantAppService - Updating a tenant for input: [UpdateTenantInput > TenantId = 24, Name = asdf, IsActive = False]
+INFO  2015-04-29 20:43:15,207 [20   ] roSampleProject.Tenants.TenantAppService - Updating a tenant for input: [UpdateTenantInput > TenantId = 25, Name = asdf, IsActive = False]
+INFO  2015-04-29 20:43:16,522 [22   ] roSampleProject.Tenants.TenantAppService - Updating a tenant for input: [UpdateTenantInput > TenantId = 26, Name = asdf14, IsActive = True]
+INFO  2015-04-29 20:43:18,544 [9    ] roSampleProject.Tenants.TenantAppService - Updating a tenant for input: [UpdateTenantInput > TenantId = 27, Name = 2134, IsActive = False]
+INFO  2015-04-29 20:43:20,252 [13   ] roSampleProject.Tenants.TenantAppService - Updating a tenant for input: [UpdateTenantInput > TenantId = 28, Name = 345, IsActive = False]
+INFO  2015-04-29 20:43:22,618 [18   ] roSampleProject.Tenants.TenantAppService - Updating a tenant for input: [UpdateTenantInput > TenantId = 29, Name = 345, IsActive = False]
+INFO  2015-04-29 20:43:23,981 [9    ] roSampleProject.Tenants.TenantAppService - Updating a tenant for input: [UpdateTenantInput > TenantId = 30, Name = 345, IsActive = False]
+INFO  2015-04-29 20:43:26,451 [9    ] roSampleProject.Tenants.TenantAppService - Updating a tenant for input: [UpdateTenantInput > TenantId = 31, Name = rew, IsActive = False]
+DEBUG 2015-04-29 20:49:36,956 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2015-04-29 20:49:41,858 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2015-04-29 20:49:41,862 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.5.12.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-04-29 20:49:41,863 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.5.12.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-04-29 20:49:41,863 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.5.12.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-04-29 20:49:41,863 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.5.12.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-04-29 20:49:41,864 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.5.12.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-04-29 20:49:41,864 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.5.12.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-04-29 20:49:41,864 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.5.15.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-04-29 20:49:41,864 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.5.15.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-04-29 20:49:41,864 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ModuleZeroSampleProject.ModuleZeroSampleProjectApplicationModule, ModuleZeroSampleProject.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-04-29 20:49:41,864 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ModuleZeroSampleProject.ModuleZeroSampleProjectCoreModule, ModuleZeroSampleProject.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-04-29 20:49:41,865 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ModuleZeroSampleProject.ModuleZeroSampleProjectDataModule, ModuleZeroSampleProject.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-04-29 20:49:41,865 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ModuleZeroSampleProject.Web.ModuleZeroSampleProjectWebModule, ModuleZeroSampleProject.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-04-29 20:49:41,865 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ModuleZeroSampleProject.ModuleZeroSampleProjectWebApiModule, ModuleZeroSampleProject.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-04-29 20:49:41,868 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2015-04-29 20:49:42,803 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 5 classes defines auto mapping attributes
+DEBUG 2015-04-29 20:49:42,803 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ModuleZeroSampleProject.Questions.Dto.AnswerDto
+DEBUG 2015-04-29 20:49:43,096 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ModuleZeroSampleProject.Questions.Dto.QuestionDto
+DEBUG 2015-04-29 20:49:43,101 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ModuleZeroSampleProject.Questions.Dto.QuestionWithAnswersDto
+DEBUG 2015-04-29 20:49:43,105 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ModuleZeroSampleProject.Tenants.Dto.TenantDto
+DEBUG 2015-04-29 20:49:43,110 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ModuleZeroSampleProject.Users.Dto.UserDto
+DEBUG 2015-04-29 20:49:44,051 [1    ] Default                                  - Dynamic web api controller is created for type 'ModuleZeroSampleProject.Questions.IQuestionAppService' with service name 'app/question'.
+DEBUG 2015-04-29 20:49:44,054 [1    ] Default                                  - Dynamic web api controller is created for type 'ModuleZeroSampleProject.Tenants.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2015-04-29 20:49:44,055 [1    ] Default                                  - Dynamic web api controller is created for type 'ModuleZeroSampleProject.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2015-04-29 20:49:44,093 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2015-04-29 20:49:44,098 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2015-04-29 20:49:44,100 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: ModuleZeroSampleProject
+DEBUG 2015-04-29 20:49:44,101 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+INFO  2015-04-29 20:53:19,993 [7    ] roSampleProject.Tenants.TenantAppService - Updating a tenant for input: [UpdateTenantInput > TenantId = 32, Name = test1, IsActive = False]
+INFO  2015-04-29 20:53:27,176 [14   ] roSampleProject.Tenants.TenantAppService - Updating a tenant for input: [UpdateTenantInput > TenantId = 32, Name = test1, IsActive = True]
+INFO  2015-04-29 20:54:41,710 [23   ] roSampleProject.Tenants.TenantAppService - Updating a tenant for input: [UpdateTenantInput > TenantId = 1, Name = Default, IsActive = True]
+INFO  2015-04-29 20:54:45,187 [13   ] roSampleProject.Tenants.TenantAppService - Updating a tenant for input: [UpdateTenantInput > TenantId = 32, Name = test1, IsActive = True]
+INFO  2015-04-29 20:54:51,734 [11   ] roSampleProject.Tenants.TenantAppService - Creating a tenant for input: [CreateTenantInput > Name = Default, IsActive = True]
+INFO  2015-04-29 20:56:45,452 [28   ] roSampleProject.Tenants.TenantAppService - Updating a tenant for input: [UpdateTenantInput > TenantId = 33, Name = Default, IsActive = True]

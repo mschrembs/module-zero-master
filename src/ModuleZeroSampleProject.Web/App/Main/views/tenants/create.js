@@ -1,8 +1,8 @@
 ﻿(function () {
     var controllerId = 'app.views.tenants.create';
     angular.module('app').controller(controllerId, [
-        '$scope', '$location', 'abp.services.app.tenant', '$modalInstance',
-        function ($scope, $location, tenantService, $modalInstance) {
+        '$scope', '$location', 'abp.services.app.tenant',
+        function ($scope, $location, tenantService) {
             var vm = this;
 
             vm.tenant = {
@@ -12,17 +12,16 @@
 
             vm.localize = abp.localization.getSource('ModuleZeroSampleProject');
 
-            vm.save = function () {
-                tenantService
+            vm.TenantCreate = function () {
+                abp.ui.setBusy(
+                    null,
+                    tenantService
                     .createTenant(vm.tenant)
                     .success(function () {
-                        $modalInstance.close();
                         abp.notify.info(abp.utils.formatString(vm.localize("TenantCreatedMessage"), vm.tenant.name));
-                    });
-            };
-
-            vm.cancel = function () {
-                $modalInstance.dismiss('cancel');
+                        $location.path('/tenants');
+                    })
+                );
             };
         }
     ]);

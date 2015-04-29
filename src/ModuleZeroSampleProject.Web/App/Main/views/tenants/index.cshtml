@@ -1,11 +1,10 @@
 ﻿<div ng-controller="app.views.tenants.index as vm">
     <div class="command-list row">
         <div class="col-lg-12 text-right">
-            <button ng-click="vm.showTenantCreateDialog()" class="btn btn-primary btn-raised"><i class="fa fa-asterisk"></i> New Tenant</button>
+            <a ng-href="#/tenants/create" class="btn btn-primary btn-raised"><i class="fa fa-asterisk"></i> New Tenant</a>
         </div>
     </div>
     <div class="bs-component">
-        <a ng-href="#/tenants/create">add new</a>
         <div class="list-group">
             <div ng-repeat="tenant in vm.tenants">
                 <div class="list-group-item">
@@ -16,7 +15,8 @@
                         <div class="least-content"></div>
                         <h4 class="list-group-item-heading">{{tenant.tenancyName}}</h4>
                         <p class="list-group-item-text">{{tenant.name}}<span class="text-muted">{{tenant.isActive}}</span></p>
-                        <button id="{{tenant.id}}" ng-click="vm.showTenantUpdateDialog($event)" class="btn btn-primary btn-raised"><i class="fa fa-pencil-square-o"></i> Update Tenant</button>
+                        <a ng-href="#/tenants/update/{{tenant.id}}" class="btn btn-primary btn-raised"><i class="fa fa-pencil-square-o"></i> @L("TenantUpdate")</a>
+                        <button id="{{tenant.id}}" ng-click="vm.showTenantDeleteDialog($event)" class="btn btn-primary btn-raised"><i class="fa fa-trash"></i> @L("TenantDelete")</button>
                     </div>
                 </div>
                 <div ng-if="!$last" class="list-group-separator"></div>

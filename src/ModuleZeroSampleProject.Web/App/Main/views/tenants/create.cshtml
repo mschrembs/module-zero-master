@@ -1,27 +1,13 @@
-﻿<div>
-    <div class="modal-header">
-        <h3 class="modal-title">@L("TenantCreate")</h3>
-    </div>
-    <div class="modal-body">
-        <form class="form-horizontal">
-            <fieldset>
-                <div class="form-group">
-                    <label for="TenantName" class="col-lg-2 control-label">@L("TenantName")</label>
-                    <div class="col-lg-10">
-                        <input ng-model="vm.tenant.name" type="text" class="form-control" name="TenantName" placeholder="@L("TenantEnterNameHere")" required>
-                    </div>
-                </div>
-                <div class="form-group">
-                    <label for="TenantIsActive" class="col-lg-2 control-label">@L("TenantIsActive")</label>
-                    <div class="col-lg-10">
-                        <input type="checkbox" ng-model="vm.tenant.isActive" class="form-control" rows="5" name="TenantIsActive" />
-                    </div>
-                </div>
-            </fieldset>
-        </form>
-    </div>
-    <div class="modal-footer">
-        <button class="btn btn-warning" ng-click="vm.cancel()">Cancel</button>
-        <button class="btn btn-primary" ng-click="vm.save()">@L("TenantUpdate")</button>
-    </div>
+﻿<div ng-controller="app.views.tenants.create as vm">
+    <form id="TenantCreateForm" role="form" name="TenantCreateForm" novalidate>
+        <div class="form-group">
+            <label for="TenantName" class="col-lg-2 control-label">@L("TenantName")</label>
+            <input id="TenantName" type="text" ng-model="vm.tenant.name" class="form-control" placeholder="@L("TenantEnterNameHere")" required>
+        </div>
+        <div class="form-group">
+            <label for="TenantIsActive" class="col-lg-2 control-label">@L("TenantIsActive")</label>
+            <input type="checkbox" ng-model="vm.tenant.isActive" class="form-control" id="TenantIsActive" />
+        </div>
+        <button ng-click="vm.TenantCreate()" ng-disabled="TenantCreateForm.$invalid" type="submit" class="btn btn-primary">@L("TenantCreate")</button>
+    </form>
 </div>

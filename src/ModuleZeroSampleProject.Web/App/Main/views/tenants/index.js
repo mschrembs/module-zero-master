@@ -9,28 +9,16 @@
 
             vm.tenants = [];
 
-            vm.showTenantCreateDialog = function () {
+            vm.showTenantDeleteDialog = function (event) {
                 var modalInstance = $modal.open({
-                    templateUrl: abp.appPath + 'App/Main/views/tenants/create.cshtml',
-                    controller: 'app.views.tenants.create as vm',
-                    size: 'md'
-                });
-
-                modalInstance.result.then(function () {
-                    vm.loadTenants();
-                });
-            };
-
-            vm.showTenantUpdateDialog = function (event) {
-                var modalInstance = $modal.open({
-                    templateUrl: abp.appPath + 'App/Main/views/tenants/update.cshtml',
-                    controller: 'app.views.tenants.update as vm',
+                    templateUrl: abp.appPath + 'App/Main/views/tenants/delete.cshtml',
+                    controller: 'app.views.tenants.delete as vm',
                     size: 'md',
                     resolve: {
-                        tenantId: function () {
+                        tenantId: function() {
                             return event.target.id;
+                        }
                     }
-            }
                 });
 
                 modalInstance.result.then(function () {
