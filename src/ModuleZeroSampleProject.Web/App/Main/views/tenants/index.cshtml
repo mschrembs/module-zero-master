@@ -23,4 +23,12 @@
             </div>
         </div>
     </div>
+    
+    <table ng-table class="table">
+        <tr ng-repeat="user in vm.users">
+            <td data-title="'Name'">{{user.name}}</td>
+            <td data-title="'Age'">{{user.age}}</td>
+        </tr>
+    </table>
+
 </div>
