@@ -5,7 +5,6 @@
         'ngAnimate',
         'ngSanitize',
         'ngMaterial',
-        'ngTable',
 
         'ui.router',
         'ui.bootstrap',
