@@ -24,6 +24,7 @@ namespace ModuleZeroSampleProject.Web
                         "~/bower_components/bootstrap-material-design/dist/css/material-wfont.min.css",
                         "~/bower_components/angular-material/angular-material.min.css",
                         "~/bower_components/angular-material/themes/blue-theme.css",
+                        "~/bower_components/table/dist/ng-table.css",
 
                         "~/Content/toastr.min.css",
                         "~/Content/flags/famfamfam-flags.css",
@@ -58,6 +59,7 @@ namespace ModuleZeroSampleProject.Web
                         "~/bower_components/angular-sanitize/angular-sanitize.min.js",
                         "~/bower_components/angular-aria/angular-aria.min.js",
                         "~/bower_components/angular-ui-router/release/angular-ui-router.min.js",
+                        "~/bower_components/ng-table/dist/ng-table.js",
 
                         "~/bower_components/hammerjs/hammer.min.js",
 

@@ -10,7 +10,8 @@
         'ui.bootstrap',
         'ui.jq',
 
-        'abp'
+        'abp',
+        'ngTable'
     ]);
 
     //Configuration for Angular UI routing.
