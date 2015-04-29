@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<localizationDictionary culture="en">
+  <texts>
+    <text name="InternalServerError" value="Während Ihrer Anfrage ist ein interner Fehler aufgetreten!" />
+    <text name="ValidationError" value="Ihre Anfrage ist nicht gültig!" />
+    <text name="AreYouSure" value="Sind Sie sicher?" />
+    <text name="Cancel" value="Abbrechen" />
+    <text name="Yes" value="Ja" />
+  </texts>
+</localizationDictionary>

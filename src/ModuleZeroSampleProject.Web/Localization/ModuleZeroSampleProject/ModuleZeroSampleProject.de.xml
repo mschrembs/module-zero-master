@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<localizationDictionary culture="en">
+  <texts>
+    <text name="Questions" value="Fragen" />
+    <text name="Users" value="Benutzer" />
+    <text name="Roles" value="Rollen" />
+    <text name="Tenants" value="Mandanten" />
+    <text name="TenantName" value="Mandant" />
+    <text name="TenantEnterNameHere" value="Name des Mandanten" />
+    <text name="TenantIsActive" value="Aktiv" />
+    <text name="TenantCreate" value="Neuen Mandanten anlegen" />
+    <text name="TenantUpdate" value="Mandant aktualisieren" />
+    <text name="TenantUpdatedMessage" value="Der Mandant wurde erfolgreich aktualisiert." />
+    <text name="TenantCreatedMessage" value="Der Mandant {0} wurde erfolgreich angelegt." />
+  </texts>
+</localizationDictionary>

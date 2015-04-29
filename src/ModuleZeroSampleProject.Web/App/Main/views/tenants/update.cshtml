@@ -1,0 +1,28 @@
+﻿<div>
+    <div class="modal-header">
+        <h3 class="modal-title">@L("TenantUpdate")</h3>
+    </div>
+    <div class="modal-body">
+        <form class="form-horizontal">
+            <fieldset>
+                <div class="form-group">
+                    <label for="TenantName" class="col-lg-2 control-label">@L("TenantName")</label>
+                    <div class="col-lg-10">
+                        <input ng-model="vm.tenant.name" type="text" class="form-control" name="TenantName" placeholder="@L("TenantEnterNameHere")" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="TenantIsActive" class="col-lg-2 control-label">@L("TenantIsActive")</label>
+                    <div class="col-lg-10">
+                        <input type="checkbox" ng-model="vm.tenant.isActive" class="form-control" rows="5" name="TenantIsActive" />
+                    </div>
+                </div>
+                <input type="hidden" id="TenantId" ng-model="vm.tenant.id" />
+            </fieldset>
+        </form>
+    </div>
+    <div class="modal-footer">
+        <button class="btn btn-warning" ng-click="vm.cancel()">Cancel</button>
+        <button class="btn btn-primary" ng-click="vm.update()">@L("TenantUpdate")</button>
+    </div>
+</div>

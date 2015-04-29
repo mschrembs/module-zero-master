@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<localizationDictionary culture="en">
+  <texts>
+    <text name="Questions" value="Questions" />
+    <text name="Users" value="Users" />
+    <text name="Roles" value="Roles" />
+    <text name="Tenants" value="Tenants" />
+    <text name="TenantName" value="Tenant" />
+    <text name="TenantEnterNameHere" value="Name of the Tenant" />
+    <text name="TenantIsActive" value="Active" />
+    <text name="TenantCreate" value="Create new Tenant" />
+    <text name="TenantUpdate" value="Update Tenant" />
+    <text name="TenantUpdatedMessage" value="Tenant has been successfully updated." />
+    <text name="TenantCreatedMessage" value="Tenant {0} has been created successfully." />
+  </texts>
+</localizationDictionary>
